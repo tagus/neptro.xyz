@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    const lang = (navigator.languages && navigator.languages[0]) || navigator.language;
+    if (lang === 'ne') {
+      window.location.replace('/np/');
+    }
+  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133429892-1"></script>
   <script>
