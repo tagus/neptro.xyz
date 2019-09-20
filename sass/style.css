@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap");
+/******************************************************************************/
+* {
+  box-sizing: border-box; }
+
+body, html {
+  margin: 0;
+  font-family: "Lexend Deca", sans-serif; }
+
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+  .page-content {
+    flex: 1; }
+
+/******************************************************************************/
+.container {
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 0 1em; }
+
+/******************************************************************************/
+.nav-bar-container {
+  background-color: #fbc531;
+  color: #FFFFFF; }
+
+.nav-bar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1em; }
+  .nav-bar-content:not(:first-child) {
+    padding-bottom: 1em; }
+
+.nav-bar-button {
+  transition: color 0.15s; }
+  .nav-bar-button:not(:last-child) {
+    margin-right: 1em; }
+  .nav-bar-button:hover {
+    cursor: pointer;
+    color: #487eb0; }
+
+.site-brand-lg {
+  font-size: 2em;
+  font-weight: bold; }
+
+.footer {
+  font-size: 0.8em;
+  background-color: #fde8ae;
+  width: 100%;
+  padding: 3em 0 4em 0; }
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .footer-column {
+    min-height: 100px;
+    max-width: 200px; }
+  .footer-description {
+    margin-top: 0.8em;
+    color: #404040; }
+  .footer-site-links {
+    padding: 0;
+    list-style: none; }
+    .footer-site-links li:not(:last-child) {
+      margin-bottom: 0.1em; }
+
+/******************************************************************************/
+.fp-container {
+  padding: 3em 0; }
+
+.fp-section {
+  margin-bottom: 2em; }
+  .fp-section-header {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #4d4c4c; }
+
+.fp-posts-and-tags {
+  display: grid;
+  grid-gap: 1.5em;
+  grid-template-columns: 2fr 1fr; }
+  @media (max-width: 768px) {
+    .fp-posts-and-tags {
+      grid-template-columns: none; } }
+
+.highlights {
+  display: grid;
+  grid-template-columns: 1.75fr 1.25fr;
+  grid-gap: 1.5em; }
+  @media (max-width: 768px) {
+    .highlights {
+      grid-template-columns: none; } }
+  .highlights-focus {
+    grid-area: 1 / 1 / 3 / 2; }
+
+.recent-posts {
+  display: grid;
+  grid-gap: 1.5em; }
+
+.tags-list {
+  display: grid;
+  grid-gap: 1.5em; }
+
+.placeholder {
+  background-color: #dcdde1;
+  min-width: 100px;
+  min-height: 200px; }
+  .placeholder-sml {
+    background-color: #dcdde1;
+    min-height: 100px; }

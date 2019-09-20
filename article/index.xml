@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on neptro</title>
+    <link>https://neptro.xyz/article/</link>
+    <description>Recent content in Articles on neptro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Sep 2019 22:51:10 -0400</lastBuildDate>
+    
+	<atom:link href="https://neptro.xyz/article/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sample Article</title>
+      <link>https://neptro.xyz/article/sample-article/</link>
+      <pubDate>Thu, 19 Sep 2019 22:51:10 -0400</pubDate>
+      
+      <guid>https://neptro.xyz/article/sample-article/</guid>
+      <description>Peter Griffin is the main character of the American animated sitcom Family Guy. He is voiced by the series&amp;rsquo; creator, Seth MacFarlane, and first appeared on television, along with the rest of the Griffin family, in the 15-minute pilot pitch of Family Guy on December 20, 1998.</description>
+    </item>
+    
+  </channel>
+</rss>
