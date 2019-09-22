@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Sample Article 3</title>
+      <link>https://neptro.xyz/articles/sample-article-3/</link>
+      <pubDate>Mon, 02 Sep 2019 22:53:10 -0400</pubDate>
+      
+      <guid>https://neptro.xyz/articles/sample-article-3/</guid>
+      <description>Peter Griffin is the main character of the American animated sitcom Family Guy. He is voiced by the series&amp;rsquo; creator, Seth MacFarlane, and first appeared on television, along with the rest of the Griffin family, in the 15-minute pilot pitch of Family Guy on December 20, 1998.</description>
+    </item>
+    
+    <item>
       <title>About Us</title>
       <link>https://neptro.xyz/about-us/</link>
       <pubDate>Sat, 21 Sep 2019 00:15:33 -0400</pubDate>
@@ -36,15 +45,6 @@
       
       <guid>https://neptro.xyz/articles/sample-article/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc eget lorem dolor sed viverra ipsum nunc.</description>
-    </item>
-    
-    <item>
-      <title>Sample Article 3</title>
-      <link>https://neptro.xyz/articles/sample-article-3/</link>
-      <pubDate>Mon, 02 Sep 2019 22:53:10 -0400</pubDate>
-      
-      <guid>https://neptro.xyz/articles/sample-article-3/</guid>
-      <description>Peter Griffin is the main character of the American animated sitcom Family Guy. He is voiced by the series&amp;rsquo; creator, Seth MacFarlane, and first appeared on television, along with the rest of the Griffin family, in the 15-minute pilot pitch of Family Guy on December 20, 1998.</description>
     </item>
     
   </channel>
