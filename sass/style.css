@@ -109,7 +109,9 @@ h2, h3, h4 {
 .fp-highlights {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5em; }
+  grid-gap: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #fbc531; }
   @media (max-width: 768px) {
     .fp-highlights {
       grid-template-columns: 1fr; } }
