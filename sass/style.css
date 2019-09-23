@@ -120,11 +120,48 @@ h2, h3, h4 {
 
 .fp-recent-article:not(:last-child) {
   padding-bottom: 1.5em;
-  border-bottom: 2px solid #fbc531; }
+  border-bottom: 1px solid #fbc531; }
 
-.fp-tags-list {
-  display: grid;
-  grid-gap: 1.5em; }
+.fp-subscribe {
+  border: 2px solid #fbc531; }
+  @media (max-width: 576px) {
+    .fp-subscribe {
+      margin-top: 1em; } }
+  .fp-subscribe-header {
+    text-align: center;
+    color: #4c4e4d;
+    padding: 1em;
+    background-color: #fde8ae; }
+  .fp-subscribe-form {
+    padding: 1em; }
+    .fp-subscribe-form-label {
+      display: block;
+      color: #666666;
+      font-size: 0.8em;
+      margin-bottom: 0.4em; }
+    .fp-subscribe-form-email {
+      border: 1px solid #fbc531;
+      display: block;
+      width: 100%;
+      padding: 1em;
+      margin-bottom: 1em; }
+    .fp-subscribe-form-msg {
+      color: #98a3ad;
+      font-size: 0.7em; }
+    .fp-subscribe-form-btn {
+      width: 100%;
+      background-color: #4c4e4d;
+      border: 0;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: block;
+      font-size: .75em;
+      letter-spacing: .09em;
+      padding: 1em;
+      text-transform: uppercase;
+      transition: opacity 0.15s; }
+      .fp-subscribe-form-btn:hover {
+        opacity: 0.8; }
 
 .placeholder {
   background-color: #dcdde1;
@@ -287,8 +324,7 @@ h2, h3, h4 {
   .article-card-img {
     width: 100%;
     overflow: hidden;
-    height: 60%;
-    flex-grow: 0.6; }
+    height: 60%; }
     .article-card-img img {
       width: 100%;
       height: 100%;
