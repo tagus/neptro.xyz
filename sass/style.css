@@ -66,28 +66,60 @@ h2, h3, h4 {
   font-size: 2em;
   font-weight: bold; }
 
+.site-brand-xl {
+  font-size: 2.3em;
+  font-weight: bold; }
+
 .footer {
   color: #666666;
   border-top: 5px solid #fbc531;
-  font-size: 0.8em;
   background-color: #f1f2f6;
   width: 100%;
-  padding: 3em 0 6em 0; }
+  padding: 3em 0 3em 0; }
   .footer-container {
     display: flex;
     align-items: center;
     justify-content: space-between; }
-  .footer-column {
-    min-height: 100px;
-    max-width: 200px; }
+  .footer-title {
+    display: block;
+    margin-bottom: 0.4em; }
+    @media (max-width: 576px) {
+      .footer-title {
+        font-size: 2em; } }
   .footer-description {
-    margin-top: 0.8em;
-    color: #404040; }
+    font-size: 1.1em;
+    max-width: 45%;
+    min-width: 300px;
+    line-height: 1.5; }
+    @media (max-width: 576px) {
+      .footer-description {
+        max-width: 100%;
+        font-size: 1em; } }
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.5em;
+    justify-content: space-between; }
+    @media (max-width: 576px) {
+      .footer-content {
+        flex-direction: column; } }
+    .footer-content a:hover {
+      color: #487eb0; }
   .footer-site-links {
     padding: 0;
+    margin: 0 4em 0 0;
     list-style: none; }
+    @media (max-width: 576px) {
+      .footer-site-links {
+        display: none; } }
+    .footer-site-links li:first-child {
+      font-weight: bold; }
     .footer-site-links li:not(:last-child) {
-      margin-bottom: 0.1em; }
+      margin-bottom: 0.6em; }
+  @media (max-width: 576px) {
+    .footer-copyright {
+      border-top: 1px solid #98a3ad;
+      padding-top: 1em; } }
 
 /******************************************************************************/
 .fp-container {
@@ -190,6 +222,9 @@ h2, h3, h4 {
   width: 90%;
   flex-grow: 1;
   margin-left: 2em; }
+  @media (max-width: 576px) {
+    .about-img-container {
+      margin-left: 0; } }
 
 .about-title {
   padding-bottom: 0.3em;
