@@ -38,6 +38,10 @@ h2, h3, h4 {
   margin: 0 auto;
   padding: 0 1em; }
 
+.img-fluid {
+  width: 100%;
+  height: auto; }
+
 /******************************************************************************/
 .nav-bar-container {
   background-color: #fbc531;
@@ -175,10 +179,40 @@ h2, h3, h4 {
     min-height: 100px; }
 
 /******************************************************************************/
-.page-container {
-  padding: 3em 0;
-  max-width: 768px;
-  margin: 0 auto; }
+.about-container {
+  margin: 5em 0;
+  max-width: 992px; }
+  @media (max-width: 576px) {
+    .about-container {
+      margin: 2em 0 3em 0; } }
+
+.about-img-container {
+  width: 90%;
+  flex-grow: 1;
+  margin-left: 2em; }
+
+.about-title {
+  padding-bottom: 0.3em;
+  margin-bottom: 0.3em;
+  border-bottom: 5px solid #fbc531;
+  display: inline-block; }
+
+.about-content {
+  max-width: 50%;
+  line-height: 1.7;
+  color: #4c4e4d; }
+  @media (max-width: 576px) {
+    .about-content {
+      max-width: 100%;
+      margin-bottom: 1em; } }
+
+.about-content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  @media (max-width: 576px) {
+    .about-content-container {
+      flex-direction: column; } }
 
 .article-list-header {
   display: inline-block;
@@ -432,3 +466,11 @@ h2, h3, h4 {
   .not-found-info-msg {
     font-size: 1.3em;
     margin-top: 0.7em; }
+
+.absurd-attribution {
+  text-align: center;
+  color: #98a3ad;
+  font-size: 0.8em;
+  margin-top: 1.2em; }
+  .absurd-attribution-link:hover {
+    color: #487eb0; }
