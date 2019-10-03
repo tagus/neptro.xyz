@@ -1,0 +1,7 @@
+file: nepcat.jpg
+author: RUDITYAS
+href: https://www.glazestock.com/image/Aq9t_6Jz9
+
+file: fish.jpg
+author: absurd design
+href: https://absurd.design/
